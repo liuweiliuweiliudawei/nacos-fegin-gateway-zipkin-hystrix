@@ -1,1 +1,2 @@
 # nacos-fegin-gateway-zipkin-hystrix
+注：项目下zipkin的jar包是启动zipkin服务器。自己也可以搭建一个，但是个人搭了半天就不考虑浪费时间用现成的jar了
