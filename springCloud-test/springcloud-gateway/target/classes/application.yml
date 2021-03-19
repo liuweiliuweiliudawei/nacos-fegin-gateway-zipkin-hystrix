@@ -1,0 +1,32 @@
+#server:
+#  port: 9999
+#spring:
+#  application:
+#    name: springcloud-gatway
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://120.0.0.1:3306/mysql?serverTimezone=GMT%2B8
+#    username: root
+#    password: 123456
+#  cloud:
+#    nacos:
+#      discovery:
+#        server-addr: 129.28.165.34:8848
+#      config:
+#        # Nacoe �������ĵ�ַ
+#        server-addr: ${spring.cloud.nacos.discovery.server-addr}
+#        # Nacoe �������Ķ�ȡ�ķ���
+#        group: DEFAULT_GROUP
+#        # Nacoe ��ȡ�������ļ��ĺ�׺
+#        file-extension: yaml
+#    gateway:
+#      routes:
+#        - id: springcloud-user
+#          uri: lb://springcloud-user
+#          predicates:
+#            - Path=/user/**
+#
+#        - id: springcloud-admin
+#          uri: lb://springcloud-admin
+#          predicates:
+#            - Path=/userClient/**

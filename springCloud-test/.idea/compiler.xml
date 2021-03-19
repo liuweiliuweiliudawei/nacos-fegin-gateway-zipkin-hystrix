@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springcloud-web" />
+        <module name="springcloud-common" />
+        <module name="springcloud-zipkin" />
+        <module name="springcloud-gateway" />
+        <module name="springcloud-user" />
+        <module name="springcloud-admin" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springcloud-admin" target="1.8" />
+      <module name="springcloud-common" target="8" />
+      <module name="springcloud-gateway" target="1.8" />
+      <module name="springCloud-test" target="8" />
+      <module name="springcloud-user" target="1.8" />
+      <module name="springcloud-web" target="1.8" />
+      <module name="springcloud-zipkin" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springcloud-admin" options="-parameters" />
+      <module name="springcloud-gateway" options="-parameters" />
+      <module name="springcloud-user" options="-parameters" />
+      <module name="springcloud-web" options="-parameters" />
+      <module name="springcloud-zipkin" options="-parameters" />
+    </option>
+  </component>
+</project>
