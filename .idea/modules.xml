@@ -3,6 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/nacos-fegin-gateway-zipkin-hystrix.iml" filepath="$PROJECT_DIR$/.idea/nacos-fegin-gateway-zipkin-hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springCloud-test/spring-cloud-test.iml" filepath="$PROJECT_DIR$/springCloud-test/spring-cloud-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springCloud-test/springcloud-admin/springcloud-admin.iml" filepath="$PROJECT_DIR$/springCloud-test/springcloud-admin/springcloud-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springCloud-test/springcloud-common/springcloud-common.iml" filepath="$PROJECT_DIR$/springCloud-test/springcloud-common/springcloud-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springCloud-test/springcloud-gateway/springcloud-gateway.iml" filepath="$PROJECT_DIR$/springCloud-test/springcloud-gateway/springcloud-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springCloud-test/springcloud-user/springcloud-user.iml" filepath="$PROJECT_DIR$/springCloud-test/springcloud-user/springcloud-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springCloud-test/springcloud-web/springcloud-web.iml" filepath="$PROJECT_DIR$/springCloud-test/springcloud-web/springcloud-web.iml" />
     </modules>
   </component>
 </project>
